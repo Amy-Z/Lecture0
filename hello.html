@@ -2,10 +2,60 @@
 <html>
     <head>
         <title>
-            My first website
+            My first Web Page
         </title>
+        <style>
+            table
+            {
+                border: 2px solid black;
+                border-collapse: collapse;
+            }
+            td, th
+            {
+                border: 1px solid black;
+            }
+            th
+            {
+                background-color: red;
+                /*this is a comment for css*/
+            }
+        </style>
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        hello, world! Hello there, friends. Hello one more time!
+        <!-- this is a comment -->
+        <h1 rel="style.css">This is the biggest heading!</h1>
+        <h2>An Unordered List</h2>
+        <ul>
+            <li>First</li>
+            <li>Second</li>
+            <li>Third</li>
+        </ul>
+        <h3>An Ordered List</h3>
+        <ol start=0>
+            <li>First</li>
+            <li>Second</li>
+            <li>Third</li>
+        </ol>
+        <h4>Getting smaller!</h4>
+            <img src="profilepic.jpg" width=10%/>
+        <h5>Getting smaller!</h5>
+        <table> <!--insert table and rows -->
+            <tr>
+                <th>Day</th>
+                <th>Item</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>Tuesday</td>
+                <td>Wednesday</td>
+            </tr>
+        </table>
+        <h6>This is the smallest heading!</h6>
+        <form>
+            <input type="text" placeholder="Type Your Name" name="name" />
+            <button>Submit</button>
+        </form>
     </body>
 </html>
